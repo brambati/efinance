@@ -1,3 +1,8 @@
+# Configurações Necessárias
+No diretorio tem uma pasta chamada efinance, que é a api em PHP para interação com o MySql, crie no seu servidor o caminho localhost/efinance/ caso use um nome diferente é preciso trocar o caminho da api no arquivo ./src/boot/axios.ts
+
+No cdiretorio ./efinance/conn/ConexaoMysql.php você deve trocar a conexão com o MySql
+
 # Quasar App (efinance)
 
 A Quasar Framework app
